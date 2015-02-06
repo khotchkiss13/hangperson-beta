@@ -883,7 +883,7 @@ start a new game with word "garply"`, what lines in `game_steps.rb` will
 be invoked when Cucumber tries to execute this step, and what is the
 role of the string `"garply"` in the step?
 
-> Lines 2-5 of the file will execute.  Since a step is chosen by
+> Lines 13-16 of the file will execute.  Since a step is chosen by
 > matching a regular expression, `word` will match the first (and in
 > this case only) parenthesis capture group in the regexp, which in this
 > example is `garply`.
